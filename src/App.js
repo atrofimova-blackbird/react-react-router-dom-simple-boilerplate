@@ -11,6 +11,10 @@ export default class App extends Component {
   constructor(props) {
     super(props);
 
+    window.addEventListener('popstate', (event) => {
+      console.log('Catching popstate event', event);
+    });
+
     this.state = {
       routes: [
         {

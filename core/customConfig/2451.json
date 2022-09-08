@@ -1,0 +1,91 @@
+{
+  "styles": {
+    "customStyles": {
+      "TopPanel": {
+        "PublicationSelector": {
+          "ActivePublication": {
+            "borderColor": "#e91b2d"
+          },
+          "Arrows": {
+            "fill": "#e91b2d"
+          }
+        },
+        "StoreSelector": {
+          "MapPin": {
+            "fill": "#e91b2d"
+          }
+        },
+        "ShoppingList": {
+          "ShoppingListCircle": {
+            "fill": "#e91b2d"
+          }
+        }
+      },
+      "RightPanel": {
+        "ItemViewer": {
+          "SelectedTab": {
+            "borderBottom": "#e91b2d"
+          },
+          "CouponSavings": {
+            "borderStyle": "#e91b2d"
+          },
+          "ReviewStars": {
+            "fillColor": "#e91b2d"
+          },
+          "ImageCarousel": {
+            "SelectedItem": {
+              "borderBottom": "#e91b2d"
+            }
+          }
+        },
+        "All": {
+          "PrimaryCTAButton": {
+            "border": "#e91b2d",
+            "backgroundColor": "#e91b2d"
+          },
+          "SeeStores": {
+            "border": "#e91b2d",
+            "backgroundColor": "#e91b2d"
+          },
+          "ClipCoupon": {
+            "border": "#e91b2d",
+            "backgroundColor": "#e91b2d"
+          },
+          "SecondaryCTAButton": {
+            "border": "#e91b2d",
+            "color": "#e91b2d"
+          },
+          "SelectStore": {
+            "border": "#e91b2d",
+            "color": "#e91b2d"
+          },
+          "ChangeLocalStore": {
+            "border": "#e91b2d",
+            "color": "#e91b2d"
+          },
+          "SeeAd": {
+            "border": "#e91b2d",
+            "color": "#e91b2d"
+          },
+          "View": {
+            "border": "#e91b2d",
+            "color": "#e91b2d"
+          }
+        }
+      }
+    }
+  },
+  "integrations": {
+    "isMultiItemEnabled": true,
+    "shoppingListMode": "nativeShoppingList"
+  },
+  "postPublicationTiles": [
+    {
+      "id": "defaultPubSelector",
+      "title": "Default Pub Selector",
+      "type": "publicationSelector",
+      "mobile": true,
+      "desktop": true
+    }
+  ]
+}

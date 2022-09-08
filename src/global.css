@@ -4,8 +4,12 @@
 }
 
 .layout {
-    display: flex;
-    flex: 1;
+    /*display: flex;*/
+    /*flex: 1;*/
+}
+
+#flipp-container {
+    display: block !important;
 }
 
 .nav-menu {

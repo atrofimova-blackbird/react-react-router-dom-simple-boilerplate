@@ -1,9 +1,14 @@
-import React, { Component } from 'react';
+import React  from 'react';
+import MainContainer from '../../components/MainContainer'
+// import FlippContainer from '../../components/FlippContainer'
 
-export default class PageB extends Component {
-  render() {
-    return (
-      <h1>Page B</h1>
-    );
-  }
+const PageB = () => {
+
+  return <div>
+    <h1>Page B</h1>
+    {/*<FlippContainer/>*/}
+    <MainContainer/>
+  </div>
 };
+
+export default PageB;
