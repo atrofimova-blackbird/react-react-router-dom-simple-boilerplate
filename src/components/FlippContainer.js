@@ -5,13 +5,13 @@ const FlippContainer = () => {
 
   useEffect(() => {
     if (window.storefront !== undefined) {
-      // console.log('window.storefront', window.storefront);
+      console.log('window.storefront', window.storefront);
     } else {
-      // console.log('defining storefront');
+      console.log('defining storefront');
       window.storefront = new Flipp.Storefront({
-        accessToken: "1c397596a4ba9c50c3fad26b0fcdbaa6",
-        merchantId: "2451",
-        merchantNameIdentifier: "shoprite"
+        accessToken: "92bcff5f7d07c3aaa4b33e2c048d7728",
+        merchantId: "234",
+        merchantNameIdentifier: "walmartcanada"
       });
     }
 

@@ -1,0 +1,163 @@
+{
+  "styles": {
+    "customStyles": {
+      "TopPanel": {
+        "PublicationSelector": {
+          "ActivePublication": {
+            "borderColor": "#0467c3"
+          },
+          "Arrows": {
+            "fill": "#0467c3"
+          }
+        },
+        "StoreSelector": {
+          "MapPin": {
+            "fill": "#0467c3"
+          }
+        },
+        "ShoppingList": {
+          "ShoppingListCircle": {
+            "fill": "#0467c3"
+          }
+        }
+      },
+      "RightPanel": {
+        "ItemViewer": {
+          "SelectedTab": {
+            "borderBottom": "#0467c3"
+          },
+          "CouponSavings": {
+            "borderStyle": "#0467c3"
+          },
+          "ReviewsTab": {
+            "Stars": {
+              "fillColor": "#0467c3"
+            },
+            "Link": {
+              "color": "#0467c3"
+            }
+          },
+          "ImageCarousel": {
+            "SelectedItem": {
+              "borderBottom": "#0467c3"
+            }
+          },
+          "ViewDetailsHyperlink": {
+            "color": "#0467c3"
+          },
+          "Price": {
+            "color": "#333333",
+            "PostPrice": {
+              "color": "#333333"
+            },
+            "PrePrice": {
+              "color": "#333333"
+            }
+          }
+        },
+        "All": {
+          "PrimaryCTAButton": {
+            "border": "#0467c3",
+            "backgroundColor": "#0467c3",
+            "color": "#ffffff",
+            "borderRadius": "100px"
+          },
+          "SeeStores": {
+            "border": "#0467c3",
+            "backgroundColor": "#0467c3",
+            "color": "#ffffff",
+            "borderRadius": "100px"
+          },
+          "ClipCoupon": {
+            "border": "#0467c3",
+            "backgroundColor": "#0467c3",
+            "color": "#ffffff",
+            "borderRadius": "100px"
+          },
+          "SecondaryCTAButton": {
+            "border": "#000000",
+            "backgroundColor": "#ffffff",
+            "color": "#000000",
+            "borderRadius": "100px"
+          },
+          "SelectStore": {
+            "border": "#000000",
+            "backgroundColor": "#ffffff",
+            "color": "#000000",
+            "borderRadius": "100px"
+          },
+          "ChangeLocalStore": {
+            "border": "#000000",
+            "backgroundColor": "#ffffff",
+            "color": "#000000",
+            "borderRadius": "100px"
+          },
+          "SeeAd": {
+            "border": "#000000",
+            "backgroundColor": "#ffffff",
+            "color": "#000000",
+            "borderRadius": "100px"
+          },
+          "View": {
+            "border": "#000000",
+            "backgroundColor": "#ffffff",
+            "color": "#000000",
+            "borderRadius": "100px"
+          }
+        }
+      },
+      "All": {
+        "strikeoutPrice": true,
+        "showSalestory": false
+      }
+    }
+  },
+  "integrations": {
+    "isIntegratedItemDetailsEnabled": true,
+    "sidePanelLanding": "FEATURED_ITEM",
+    "initZoomLevel": 50,
+    "isZoomEnabled": true,
+    "isSearchEnabled": false
+  },
+  "previewUrls": {
+    "en": "https://www.walmart.ca/flyer",
+    "fr": "https://www.walmart.ca/circulaire"
+  },
+  "translations": {
+    "en-CA": {
+      "FLIPP-TTM-BUTTON": {
+        "see-more-info": "View Details"
+      },
+      "FLIPP-CUSTOM-ELEMENTS-BADGE": {}
+    },
+    "fr-CA": {
+      "FLIPP-TTM-BUTTON": {
+        "see-more-info": "En savoir plus"
+      },
+      "FLIPP-CUSTOM-ELEMENTS-BADGE": {},
+      "DATE-FORMATS": {
+        "day-and-month": "d LLL",
+        "day-month-and-year": "d LLL yyyy"
+      },
+      "MISC": {
+        "navbar-validity-dates": "{from} au {to}"
+      },
+      "FLIPP-TOAST": {
+        "single-was-added-to-your-cart": "{quantity} article a été ajouté à votre panier!",
+        "plural-was-left-in-your-cart": "{quantity} articles ont été laissés dans votre panier",
+        "was-removed-from-your-cart": "{item} a été supprimé de votre panier!",
+        "single-was-left-in-your-cart": "{quantity} article a été laissé dans votre panier",
+        "plural-was-added-to-your-cart": "{quantity} articles ont été ajoutés à votre panier!"
+      }
+    }
+  },
+  "postPublicationTiles": [
+    {
+      "id": "defaultPubSelector",
+      "title": "Default Pub Selector",
+      "type": "publicationSelector",
+      "mobile": true,
+      "desktop": true
+    }
+  ]
+}
